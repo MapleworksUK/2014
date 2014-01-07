@@ -1,8 +1,20 @@
-body {
-  font-family: 'Ubuntu', sans-serif; }
+* {
+  margin: 0; }
+
+body, html {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  color: #efecec; }
 
 #container {
   margin: 10px 10px 10px 10px; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em; }
 
 .shout {
   color: #efecec;
@@ -21,6 +33,27 @@ body {
   padding: 20px 0 20px 0;
   color: #efecec;
   font-size: 40px; }
+
+.footer, .push {
+  height: 4em; }
+
+.footer a {
+  padding-right: 16px; }
+
+.footer {
+  background-color: #5f4444;
+  opacity: 0.6;
+  height: auto; }
+
+.footer a, .footer a:hover, .footer a:visited, .footer a:active {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px #5f4444, 1px -1px 2px #5f4444, -1px 1px 2px #5f4444, -1px -1px 2px #5f4444;
+  line-height: 3.5em;
+  vertical-align: bottom;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 0.05em; }
 
 #mc_embed_signup {
   background: none;
