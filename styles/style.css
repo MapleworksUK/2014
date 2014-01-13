@@ -11,8 +11,9 @@ a, a:link, a:visited, a:hover, a:active {
 
 p {
   color: #efecec;
-  text-shadow: 1px 1px 2px #5f4444, 1px -1px 2px #5f4444, -1px 1px 2px #5f4444, -1px -1px 2px #5f4444;
-  padding: 10px; }
+  text-shadow: 1px 1px 1px #5f4444, 1px -1px 1px #5f4444, -1px 1px 1px #5f4444, -1px -1px 1px #5f4444;
+  padding: 10px;
+  line-height: 2.2; }
 
 #container {
   margin: 10px 10px 10px 10px; }
