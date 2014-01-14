@@ -14,8 +14,8 @@ a, a:link, a:visited, a:hover, a:active {
 p {
   color: #efecec;
   text-shadow: 1px 1px #5f4444, 1px -1px #5f4444, -1px 1px #5f4444, -1px -1px #5f4444;
-  padding: 10px;
-  line-height: 2.2;
+  padding: 0 10px 0 10px;
+  line-height: 2;
   letter-spacing: 0.06em;
   font-weight: 300; }
 
@@ -53,15 +53,16 @@ p a, a:link, p a:visited, p a:hover, p a:active {
 .footer, .push {
   height: 4em; }
 
-.footer a {
-  padding-right: 12px; }
+#footer a {
+  padding-right: 12px;
+  text-decoration: none; }
 
-.footer {
+#footer {
   background-color: #5f4444;
   opacity: 0.6;
   height: auto; }
 
-.footer a, .footer a:hover, .footer a:visited, .footer a:active {
+#footer a, #footer a:hover, #footer a:visited, #footer a:active {
   color: white;
   font-size: 18px;
   font-weight: 300;
