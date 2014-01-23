@@ -265,6 +265,9 @@ border-radius: 5px;  */ }
     padding: 20px 10px 20px 10px;
     color: #efecec;
     font-size: 42px; }
+  .maintext {
+    margin: 0;
+    padding: 0 0 0 20px; }
   #mc_embed_signup form {
     padding: 10px 10px 10px 0px; }
   #mc_embed_signup input.email {
