@@ -112,6 +112,11 @@ img {
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 0.05em; }
 
+#cloudflare-old-browser {
+  background: yello;
+  opacity: 0.7;
+  font-size: 14px; }
+
 #mc_embed_signup {
   background: none;
   clear: left;
