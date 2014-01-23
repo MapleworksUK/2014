@@ -127,10 +127,17 @@ border-radius: 5px;  */ }
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 0.05em; }
 
-#cloudflare-old-browser {
-  background: yello;
+.brokenbrowser, #cloudflare-old-browser {
+  background: yellow;
+  color: black;
+  font-size: 18px;
   opacity: 0.7;
-  font-size: 14px; }
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)";
+  filter: "alpha(opacity=70)";
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  z-index: 100; }
 
 #mc_embed_signup {
   background: none;
