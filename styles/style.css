@@ -85,7 +85,7 @@ img {
 .footer, .push {
   height: 4em; }
 
-#footer a {
+.footer a {
   padding-right: 12px;
   text-decoration: none; }
 
@@ -102,7 +102,7 @@ img {
   color: #efecec;
   text-decoration: none; }
 
-#footer {
+.footer {
   border-top: 2px solid #2A0B0D;
   background-color: #481817;
   height: auto;
@@ -117,7 +117,7 @@ img {
 -moz-border-radius: 5px;
 border-radius: 5px;  */ }
 
-#footer a, #footer a:hover, #footer a:visited, #footer a:active {
+.footer a, .footer a:hover, .footer a:visited, .footer a:active {
   color: #ffffff;
   font-size: 14px;
   font-weight: 300;
