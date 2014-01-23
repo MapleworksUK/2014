@@ -3864,13 +3864,13 @@ blockquote, blockquote p {
     display: inherit !important; } }
 
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em; }
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333; }
+  background: #481817; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -3891,14 +3891,14 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 45px; }
+      margin-top: 48px; }
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 48px;
+  line-height: 48px;
   position: relative;
-  background: #333;
+  background: #481817;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -3921,19 +3921,19 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+    height: 48px;
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
-      line-height: 45px;
-      font-size: 1.0625rem;
+      line-height: 48px;
+      font-size: 1rem;
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
         color: #fff;
         width: 50%;
         display: block;
-        padding: 0 15px; }
+        padding: 0 16px; }
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -3945,11 +3945,11 @@ meta.foundation-mq-topbar {
       font-weight: bold;
       position: relative;
       display: block;
-      padding: 0 15px;
-      height: 45px;
-      line-height: 45px; }
+      padding: 0 16px;
+      height: 48px;
+      line-height: 48px; }
     .top-bar .toggle-topbar.menu-icon {
-      right: 15px;
+      right: 16px;
       top: 50%;
       margin-top: -16px;
       padding-left: 40px; }
@@ -3972,7 +3972,7 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333; }
+      background: #481817; }
     .top-bar.expanded .toggle-topbar a {
       color: #888; }
       .top-bar.expanded .toggle-topbar a span {
@@ -3990,11 +3990,11 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333;
+    background: #481817;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider, .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #210b0b;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -4003,16 +4003,16 @@ meta.foundation-mq-topbar {
     width: 100%;
     color: #fff;
     padding: 12px 0 12px 0;
-    padding-left: 15px;
+    padding-left: 16px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
-    background: #333; }
+    background: #481817; }
     .top-bar-section ul li > a.button {
       background: #008CBA;
       font-size: 0.8125rem;
-      padding-right: 15px;
-      padding-left: 15px; }
+      padding-right: 16px;
+      padding-left: 16px; }
       .top-bar-section ul li > a.button:hover {
         background: #006887; }
     .top-bar-section ul li > a.button.secondary {
@@ -4028,7 +4028,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > a.button.alert:hover {
         background: #d3290e; }
   .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #5f4444;
     color: #fff; }
   .top-bar-section ul li.active > a {
     background: #008CBA;
@@ -4036,7 +4036,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li.active > a:hover {
       background: #007ba1; }
   .top-bar-section .has-form {
-    padding: 15px; }
+    padding: 16px; }
   .top-bar-section .has-dropdown {
     position: relative; }
     .top-bar-section .has-dropdown > a:after {
@@ -4045,9 +4045,9 @@ meta.foundation-mq-topbar {
       width: 0;
       height: 0;
       border: inset 5px;
-      border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
+      border-color: transparent transparent transparent rgba(95, 68, 68, 0.4);
       border-left-style: solid;
-      margin-right: 15px;
+      margin-right: 16px;
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
@@ -4067,17 +4067,17 @@ meta.foundation-mq-topbar {
       height: auto; }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 15px; }
+        padding: 8px 16px; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: normal; }
       .top-bar-section .dropdown li.title h5 {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
           color: #fff;
-          line-height: 22.5px;
+          line-height: 24px;
           display: block; }
     .top-bar-section .dropdown label {
-      padding: 8px 15px 2px;
+      padding: 8px 16px 2px;
       margin-bottom: 0;
       text-transform: uppercase;
       color: #777;
@@ -4087,9 +4087,9 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:64.063em) {
   .top-bar {
-    background: #333;
+    background: #481817;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -4108,7 +4108,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 7px; }
     .top-bar.expanded {
-      background: #333; }
+      background: #481817; }
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
     margin: 0 auto;
@@ -4127,26 +4127,26 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #272727;
+      background: #5f4444;
       color: #fff; }
     .top-bar-section li a:not(.button) {
-      padding: 0 15px;
-      line-height: 45px;
-      background: #333; }
+      padding: 0 16px;
+      line-height: 48px;
+      background: #481817; }
       .top-bar-section li a:not(.button):hover {
-        background: #272727; }
+        background: #5f4444; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+      padding-right: 36px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+        border-color: rgba(95, 68, 68, 0.4) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
-        top: 22.5px; }
+        top: 24px; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -4168,32 +4168,32 @@ meta.foundation-mq-topbar {
         color: #fff;
         line-height: 1;
         white-space: nowrap;
-        padding: 12px 15px;
-        background: #333; }
+        padding: 12px 16px;
+        background: #481817; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
-        background: #333; }
+        background: #481817; }
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #4d4d4d;
+      border-right: solid 1px #6f2523;
       clear: none;
-      height: 45px;
+      height: 48px;
       width: 0; }
     .top-bar-section .has-form {
-      background: #333;
-      padding: 0 15px;
-      height: 45px; }
+      background: #481817;
+      padding: 0 16px;
+      height: 48px; }
     .top-bar-section ul.right li .dropdown {
       left: auto;
       right: 0; }
       .top-bar-section ul.right li .dropdown li .dropdown {
         right: 100%; }
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #5f4444;
     color: #fff; }
   .no-js .top-bar-section ul li:active > a {
     background: #008CBA;
